@@ -171,6 +171,7 @@ public class MainActivity extends AppCompatActivity {
             bluetoothLeScanner.startScan(leScanCallback);
             scanButton.setText("STOP SCAN");
 
+
         } else {
             stopScanning();
         }
