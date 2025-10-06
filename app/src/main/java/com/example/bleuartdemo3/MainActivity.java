@@ -347,9 +347,6 @@ public class MainActivity extends AppCompatActivity {
                             } catch (NumberFormatException e) {
                                 dataList.add("Invalid PPG: " + fullMessage);
                             }
-                        } else {
-                            // Fallback for raw/unexpected data
-                            dataList.add("Raw: " + fullMessage);
                         }
 
                         // Update list and scroll to last
